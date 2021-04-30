@@ -2,13 +2,6 @@
 
 #### Ultilized linked lists, hash tables, binary search trees, stack and queues to perform CRUD operations
 
-## Technologies
-
-- Typescript
-- Express
-- MikroORM
-- SQLite
-
 1. Install dependencies via `yarn` or `npm install`
 2. Create DB schema via `npx mikro-orm schema:create -r`
 3. Run via `yarn start` or `npm start`
@@ -30,3 +23,10 @@ GET     /blog_post/numeric_body     gets all blog posts and turns body into numb
 GET     /blog_post/:id              finds a blog post by id
 DELETE  /blog_post/delete_last_10   deletes last 10 blog posts
 ```
+
+## Technologies
+
+- Typescript
+- Express
+- MikroORM
+- SQLite
